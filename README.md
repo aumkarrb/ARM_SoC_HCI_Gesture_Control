@@ -209,7 +209,6 @@ We tried several approaches before finding the working solution:
   ###   two_up                94%
   ###  palm                  91%
 
-- Press Control+C to stop execution (for model + media control test)
 - To start running, run:
 ```
 python3.8 vlc_gesture_control.py --camera 0 \
@@ -217,6 +216,6 @@ python3.8 vlc_gesture_control.py --camera 0 \
   --video "/home/behura-san/jetson-test/ARM_SoC_HCI_Gesture_Control/test/video-b.mp4" \
   --video "/home/behura-san/jetson-test/ARM_SoC_HCI_Gesture_Control/test/video-c.mp4"
   ```
-
+- Press Control+C to stop execution (for model + media control test)
 
 
