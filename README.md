@@ -43,14 +43,20 @@ Put all 3 in the same folder on Jetson. Nothing else needed.
 
 JETSON SETUP (one time only)
 -----------------------------
+  ```
   pip3 install onnxruntime opencv-python
+  ```
 
   Optional (faster inference with TensorRT):
+
+  ```
   pip3 install onnxruntime-gpu
+  ```
 
   Run:
+  ```
   python3 jetson_inference_hagrid.py
-
+  ```
   Press Q to quit.
 
 
