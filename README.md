@@ -198,15 +198,12 @@ QUICK REFERENCE: RUNNING ON JETSON
   # Run
   python3 jetson_inference_hagrid.py
 
-  # Terminal output while running:
-  #   fist                  87%
-  #   two_up                94%
-  #   palm                  91%
+  ## Terminal output while running:
+  ###  fist                  87%
+  ###   two_up                94%
+  ###  palm                  91%
 
-  # Press Q in the video window to quit
+  ### Press Q in the video window to quit
 
 
-================================================================================
-  Contact: refer back to the original developer for model retraining or
-           adding new gesture classes (requires new HaGRID-style training data)
-================================================================================
+
