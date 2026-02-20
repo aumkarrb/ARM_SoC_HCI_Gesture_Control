@@ -103,17 +103,18 @@ Example structure (add inside the while loop after confidence check):
       elif gesture == 'stop':
           os.system('playerctl stop')
 
-For playerctl (controls VLC, Spotify, etc. on Linux/Jetson):
-  sudo apt install playerctl
-
 For VLC specifically via python-vlc:
-  pip3 install python-vlc
 
-For keyboard simulation (works with any app):
-  pip3 install pynput
-  from pynput.keyboard import Key, Controller
-  keyboard = Controller()
-  keyboard.press(Key.media_next)   # next track
+```
+pip3 install python-vlc
+```
+
+  (better works using mvp)
+
+```
+pip3 install mvp
+```
+
 
 
 IMPORTANT: DEBOUNCE YOUR ACTIONS
