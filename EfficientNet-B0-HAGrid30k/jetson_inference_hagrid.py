@@ -96,7 +96,7 @@ def main():
     import time
     fps_time = time.time()
 
-    print("🎥 Running — press Q to quit")
+    print("Running — press Q to quit")
 
     while True:
         ret, frame = cap.read()
@@ -171,4 +171,5 @@ def main():
 
 
 if __name__ == '__main__':
+
     main()
