@@ -1,4 +1,4 @@
-================================================================================
+
   ARM SoC HCI GESTURE CONTROL — PROJECT SUMMARY
   For Jetson Nano Media Integration
   Date: February 17, 2026
