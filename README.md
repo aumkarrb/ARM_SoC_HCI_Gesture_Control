@@ -191,17 +191,26 @@ We tried several approaches before finding the working solution:
 # QUICK REFERENCE: RUNNING ON JETSON
 
   ## One-time setup
+  ```
   pip3 install onnxruntime opencv-python
-
+```
   ## Run
-  python3 jetson_inference_hagrid.py
-
+ ```
+ python3 jetson_inference_hagrid.py
+```
   ## Terminal output while running:
   ###  fist                  87%
   ###   two_up                94%
   ###  palm                  91%
 
-  #### Press Q in the video window to quit
+- Press Control+C to stop execution (for model + media control test)
+- To start running, run:
+```
+python3.8 vlc_gesture_control.py --camera 0 \
+  --video "/home/behura-san/jetson-test/ARM_SoC_HCI_Gesture_Control/test/video-a.mp4" \
+  --video "/home/behura-san/jetson-test/ARM_SoC_HCI_Gesture_Control/test/video-b.mp4" \
+  --video "/home/behura-san/jetson-test/ARM_SoC_HCI_Gesture_Control/test/video-c.mp4"
+  ```
 
 
 
