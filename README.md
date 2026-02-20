@@ -219,4 +219,7 @@ python3.8 vlc_gesture_control.py --camera 0 \
   ```
 - Press Control+C to stop execution (for model + media control test)
 
+Note:- Additional Packages need for running
+OpenCV + OpenCV_contrilib, can  be downloaded here:- 
+
 
