@@ -110,10 +110,10 @@ For VLC specifically via python-vlc:
 pip3 install python-vlc
 ```
 
-  (better works using mvp)
+  (better works using mpv)
 
 ```
-pip3 install mvp
+pip3 install mpv
 ```
 
 
