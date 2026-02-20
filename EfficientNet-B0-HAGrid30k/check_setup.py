@@ -251,7 +251,7 @@ else:
 
 # ── Exact command for their setup ───────────────────────────
 print("\n" + "="*60)
-print("  📋 YOUR NEXT COMMAND (copy-paste):")
+print(" YOUR NEXT COMMAND (copy-paste):")
 print("="*60)
 if ipd_root:
     print(f"""
