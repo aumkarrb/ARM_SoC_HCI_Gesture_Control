@@ -1,6 +1,6 @@
 
  # ARM Bharat SoC Competition
- ## Touchless HCI GESTURE-based MEDIA CONTROL on Jetson Nano (Maxwell, 4GB)
+  Touchless HCI GESTURE-based MEDIA CONTROL on Jetson Nano (Maxwell, 4GB)
   
 
 PROJECT GOAL
