@@ -188,12 +188,12 @@ We tried several approaches before finding the working solution:
    Result: 94.6% test accuracy, no overfitting, clean deployment
 
 
-QUICK REFERENCE: RUNNING ON JETSON
-------------------------------------
-  # One-time setup
+# QUICK REFERENCE: RUNNING ON JETSON
+
+  ## One-time setup
   pip3 install onnxruntime opencv-python
 
-  # Run
+  ## Run
   python3 jetson_inference_hagrid.py
 
   ## Terminal output while running:
@@ -201,7 +201,7 @@ QUICK REFERENCE: RUNNING ON JETSON
   ###   two_up                94%
   ###  palm                  91%
 
-  ### Press Q in the video window to quit
+  #### Press Q in the video window to quit
 
 
 
